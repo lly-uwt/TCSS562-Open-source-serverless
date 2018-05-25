@@ -30,7 +30,7 @@ sudo make docker-build
 
 *Create image for backup.
 
-*Continue after fnserver nodes are up and running.
+*Continue after [fnserver nodes](#Fn-server-nodes) are up and running.
 
 Run fnlb docker:
 ```sh
