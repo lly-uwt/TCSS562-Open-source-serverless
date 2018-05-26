@@ -30,7 +30,7 @@ sudo make docker-build
 
 *Create image for backup.
 
-*Continue after [fnserver nodes](#Fn-server-nodes) are up and running.
+*Continue after [fnserver nodes](#fn-server-nodes) are up and running.
 
 Run fnlb docker:
 ```sh
@@ -73,6 +73,12 @@ curl -LSs https://raw.githubusercontent.com/fnproject/cli/master/install | sh
 *Create image for backup or later to create addition nodes
 
 Start fn: `sudo fn start`
+
+## cURL commands
+```sh
+# get app list
+curl -X GET "http://<IpAddress>:8081/v1/apps" -H  "accept: application/json"
+```
 
 
 #### Links:

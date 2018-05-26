@@ -8,7 +8,7 @@ public class LambdaFunctionHandler implements RequestHandler<Object, String> {
 
     @Override
     public String handleRequest(Object input, Context context) {
-        context.getLogger().log("Input: " + input);
+        // context.getLogger().log("Input: " + input);
         long timestamp = System.currentTimeMillis();
         long result = CombinatoricsUtils.factorial(5);
         timestamp = System.currentTimeMillis() - timestamp;
