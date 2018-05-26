@@ -1,7 +1,7 @@
 name: hello-java-function
 version: 0.0.1
 runtime: java
-cmd: com.example.fn.HelloFunction::handleRequest
+cmd: HelloFunction::handleRequest
 build_image: fnproject/fn-java-fdk-build:jdk9-1.0.59
 run_image: fnproject/fn-java-fdk:jdk9-1.0.59
 format: http
