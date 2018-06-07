@@ -1,4 +1,4 @@
-name: fn-java
+name: <dockerhub-username>/fn-java
 version: 0.0.1
 runtime: java
 cmd: FnFunction::handleRequest

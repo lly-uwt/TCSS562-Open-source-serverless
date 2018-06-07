@@ -4,7 +4,7 @@
 
 *Make sure to deploy in the same available zone and subnet with the Fn server nodes
 
-[Open security group configures](images/open-sg.png) for easy setup which is *very unsecured*
+[Open security group configures](images/open-sg.png) for easy setup which is **very unsecured**
 
 Update ubuntu `sudo apt update && sudo apt upgrade`
 
@@ -77,7 +77,7 @@ Start fn: `sudo fn start`
 ## cURL commands
 ```sh
 # get app list
-curl -X GET "http://<IpAddress>:8081/v1/apps" -H  "accept: application/json"
+curl -X GET "http://<ipaddress>:8081/v1/apps" -H  "accept: application/json"
 ```
 
 
