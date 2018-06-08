@@ -1,4 +1,4 @@
-name: <dockerhub-username>/fn-java
+name: lanly/fn-java
 version: 0.0.1
 runtime: java
 cmd: FnFunction::handleRequest
