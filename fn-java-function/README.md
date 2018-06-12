@@ -1,5 +1,4 @@
-
-
+Fn version 0.4.113
 
 # Function deployment instruction
 Login to dockerhub with command `docker login` to get permission to push
@@ -9,14 +8,14 @@ Login to dockerhub with command `docker login` to get permission to push
 ### Setup context file:
 ```sh
 # provider and registry is optional
-sudo fn context create <context-name> --provider <value> --api-url <fnlb-or-node-ipaddress> --registry <value>
+sudo fn create context <context-name> --provider <value> --api-url <fnlb-or-node-ipaddress> --registry <value>
 
-sudo fn context use <context-name>
+sudo fn use context <context-name>
 ```
 #### Example:
 ```sh
-sudo fn context create prod --provider aws --api-url http://18.207.112.196:8081/v1
-sudo fn context use prod
+sudo fn create context prod --provider aws --api-url http://18.207.112.196:8081/v1
+sudo fn use context prod
 ```
 
 ### Deploy:
@@ -41,8 +40,8 @@ sudo fn run # build and run docker
 mvn clean package # build a jar
 
 # fn commands
-sudo fn context list
-sudo fn routes list <app-name>
+sudo fn list context
+sudo fn list routes <app-name>
 ```
 
 ## Links:

@@ -1,4 +1,4 @@
-name: lanly/fn-java
+name: <dockerhub-username>/fn-java
 version: 0.0.1
 runtime: java
 cmd: FnFunction::handleRequest
@@ -6,3 +6,4 @@ build_image: fnproject/fn-java-fdk-build:jdk9-1.0.59
 run_image: fnproject/fn-java-fdk:jdk9-1.0.59
 format: http
 timeout: 120
+idle_timeout: 300

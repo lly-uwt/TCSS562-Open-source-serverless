@@ -56,6 +56,8 @@ Delete node:
 ```sh
 curl -sSL -X DELETE -d '{"node":"xxx.xxx.xxx.xxx:8080"}' <fnlb_address>:8081/1/lb/nodes
 ```
+*When deploying the fn function, fnlb only deploys the function to the 1st node only, so make sure to check all the nodes have the same app and route
+
 
 ## Fn server nodes
 
